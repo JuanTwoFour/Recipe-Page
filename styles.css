@@ -22,7 +22,7 @@
 }
 
 h2 {
-  color: #793a2e;
+  color: #a56329;
   margin-bottom: 1rem;
 }
 
@@ -70,7 +70,15 @@ hr {
   border: 1px solid #7272721f;
 }
 
-ol>li::marker {
-  color: #811753;
-  font-weight: 800;
+ol>li::marker, .serving {
+  color: #814817;
+  font-weight: 900;
+}
+
+.nutrition-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
