@@ -4,6 +4,28 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: 'Outfit';
+  src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+:root {
+  --White: #ffffff;
+  --Eggshell: #f3e6d8;
+  --WhiteCoffe: #e4ded8;
+  --Wenge: #5f574e;
+  --DarkCharcoal: #302d2c;
+  --Brandy: #854632;
+  --DarkRaspberry: #7b284f;
+  --Snow: #fff5fa;
+}
+
+
 @media screen and (min-width: 1024px) {
   
   body {
@@ -16,24 +38,26 @@
   header img {
     width: 100%;
     height: auto;
-    margin-top: 1rem;
     border-radius: 20px;
   }
 
   hr {
     width: 95%;
   }
+
+  .content {
+    margin: 6rem;
+    padding: 2rem;
+    border-radius: 18px;
+  }
 }
 
-:root {
-  --White: #ffffff;
-  --Eggshell: #f3e6d8;
-  --WhiteCoffe: #e4ded8;
-  --Wenge: #5f574e;
-  --DarkCharcoal: #302d2c;
-  --Brandy: #854632;
-  --DarkRaspberry: #7b284f;
-  --Snow: #fff5fa;
+body {
+  background-color: var(--Eggshell);
+}
+
+.content {
+  background-color: var(--White);
 }
 
 .attribution {
@@ -52,9 +76,14 @@
   margin: 0 auto;
 }
 
+h1 {
+  font-family: 'Young Serif';
+}
+
 h2 {
   color: var(--Brandy);
   margin-bottom: 1rem;
+  font-family: 'Young Serif';
 }
 
 div {
@@ -70,12 +99,12 @@ li {
   padding-left: 1rem;
 }
 
-.omelette h1,
-p {
+.omelette h1, p{
   padding-bottom: 1rem;
 }
 
 .container h3 {
+  font-family: 'Outfit';
   font-size: 1.2em;
   color: var(--DarkRaspberry);
   margin-bottom: 10px;
@@ -89,6 +118,7 @@ p {
   color: var(--Wenge);
   list-style-position: outside;
   margin-left: 1rem;
+  font-family: 'Outfit';
 }
 
 b {
@@ -101,13 +131,24 @@ hr {
   border: 1px solid var(--WhiteCoffe);
 }
 
-ol>li::marker, .serving {
-  color: #814817;
+ol>li::marker{
+  color: var(--Brandy);
   font-weight: 900;
 }
 
-.nutrition-info {
-  display: flex;
+.serving {
+  color: var(--DarkRaspberry);
+  font-weight: 800;
+}
+
+table {
+  width: 100%;
+  padding-bottom: 1rem;}
+
+th, td {
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
   border-bottom: 1px solid var(--WhiteCoffe);
-  justify-content: space-around;
+  font-family: 'Outfit';
 }
