@@ -5,6 +5,23 @@
   font-family: serif;
 }
 
+@media screen and (min-width: 1024px) {
+  
+  body {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  header img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 20px;
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
