@@ -70,4 +70,4 @@ As stated above I am exited to continue using these media queries in future proj
 ## Author
 
 - Website - [Juan Vega](https://juantwofour.github.io/Recipe-Page/)
-- Frontend Mentor - [@JuanTwoFour](https://www.frontendmentor.io/profile/JuanTwoFour)# Recipe-Page
+- Frontend Mentor - [@JuanTwoFour](https://juantwofour.github.io/Social-Profiles/)# Recipe-Page

@@ -19,6 +19,21 @@
     margin-top: 1rem;
     border-radius: 20px;
   }
+
+  hr {
+    width: 95%;
+  }
+}
+
+:root {
+  --White: #ffffff;
+  --Eggshell: #f3e6d8;
+  --WhiteCoffe: #e4ded8;
+  --Wenge: #5f574e;
+  --DarkCharcoal: #302d2c;
+  --Brandy: #854632;
+  --DarkRaspberry: #7b284f;
+  --Snow: #fff5fa;
 }
 
 .attribution {
@@ -31,14 +46,14 @@
 }
 
 .container {
-  background-color: #fceef4;
+  background-color: var(--Snow);
   border-radius: 10px;
   padding: 15px;
   margin: 0 auto;
 }
 
 h2 {
-  color: #a56329;
+  color: var(--Brandy);
   margin-bottom: 1rem;
 }
 
@@ -62,7 +77,7 @@ p {
 
 .container h3 {
   font-size: 1.2em;
-  color: #811753;
+  color: var(--DarkRaspberry);
   margin-bottom: 10px;
 }
 
@@ -71,19 +86,19 @@ p {
   flex-direction: column;
   gap: .8rem;
   font-size: 16px;
-  color: #5c5b5bed;
+  color: var(--Wenge);
   list-style-position: outside;
   margin-left: 1rem;
 }
 
 b {
-  color: #4a4848e6;
+  color: var(--DarkCharcoal);
 }
 
 hr {
   width: 88%;
   margin: auto;
-  border: 1px solid #7272721f;
+  border: 1px solid var(--WhiteCoffe);
 }
 
 ol>li::marker, .serving {
@@ -93,6 +108,6 @@ ol>li::marker, .serving {
 
 .nutrition-info {
   display: flex;
-  border-bottom: 1px solid #7272721f;
+  border-bottom: 1px solid var(--WhiteCoffe);
   justify-content: space-around;
 }
