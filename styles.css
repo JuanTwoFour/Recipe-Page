@@ -21,6 +21,11 @@
   margin: 0 auto;
 }
 
+h2 {
+  color: #793a2e;
+  margin-bottom: 1rem;
+}
+
 div {
   margin: 2rem;
 }
@@ -28,6 +33,10 @@ div {
 header img {
   width: 100%;
   height: auto;
+}
+
+li {
+  padding-left: 1rem;
 }
 
 .omelette h1,
@@ -41,16 +50,27 @@ p {
   margin-bottom: 10px;
 }
 
-.container ul {
+.container ul, .ingredients ul, .instructions ol {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: .8rem;
   font-size: 15px;
-  color: #6e6e6eed;
-  list-style: inside;
-  text-wrap: pretty;
+  color: #5c5b5bed;
+  list-style-position: outside;
+  margin-left: 1rem;
 }
 
 b {
-  color: #333;
+  color: #4a4848e6;
+}
+
+hr {
+  width: 88%;
+  margin: auto;
+  border: 1px solid #7272721f;
+}
+
+ol>li::marker {
+  color: #811753;
+  font-weight: 800;
 }
